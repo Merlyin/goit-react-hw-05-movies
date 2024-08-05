@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    position: relative;
+  }
+  
+  .button {
+    margin-top: 5px;
+  }
+  
+  .info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 220px;
+  }
+  
+  .info__title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info__title p {
+    font-size: 25px;
+    font-weight: 700;
+  }
